@@ -29,16 +29,15 @@ This file is used to creat an index, delete an index, and send messages to an in
 #### NOTE: THIS SCRIPT DOES TAKE A FEW MINUTES TO FULLY RUN 
 The file run_query.py can be ran before Shopping_Cart_Annotator.py is completely finished running.  It will need to be reran once Shopping_Cart_Annotator.py has finished to recieve consistent answers.
 
+
+
 ### run_query.py
 
-The file run_query.py takes a user input for a StockCode, and will run a query in Kibana to return recommendations based on 
+The file run_query.py takes a user input for a StockCode, and will run a query in Kibana to return recommendations based on the given StockCode.
 
+When the script is first ran from the command line, the user will be asked to provide a valid StockCode.  These codes can be found in the Online_Retail.csv, or Online Order.xlsx.  Acceptable StockCodes include: 85123A, 71053, 22297, M, or POST.  If an improper StockCode is provided, the script informs the user of the error and exits.
 
-
-
-
-
-The output of run_query.py should look approximately like this. (StockCode 22297 was used for this example)
+When a proper StockCode is provided, then the script will begin send a query to Kibana, and return an output.  The query will return the best match, and correlated words.  An example of the results of a query is provided below. (StockCode 22297 was used for this example)
 
 ```
 {'took': 427, 'timed_out': False, '_shards': {'total': 5, 'successful': 5, 'skipped': 0, 'failed': 0}, 'hits': {
