@@ -6,7 +6,7 @@ Unstructured Data Final Exam Recommender System
 
 Three files are needed to run depending on the need:
   - Online Retail.xlsx
-  - Convert_xlsx_to_csv.py
+  - convert_xlsx_to_csv.py
   - Shopping_Cart_Annotator.py
   - run_query.py
   
@@ -14,9 +14,9 @@ Not all of the above file will be needed to run the full recommender system depe
 
 ### Online Retail.xlsx
 
-This excel file contains the data that we are going to be loading into Kibana.  Before this happens however, it will need to be converted into a csv file.  This can either be done with Convert_xlsx_to_csv.py or by manually saving the file as "Online_Retail.csv".
+This excel file contains the data that we are going to be loading into Kibana.  Before this happens however, it will need to be converted into a csv file.  This can either be done with convert_xlsx_to_csv.py or by manually saving the file as "Online_Retail.csv".
 
-### Convert_xlsx_to_csv.py
+### convert_xlsx_to_csv.py
 
 This file is used to convert Online Retail.xlsx to a csv file titled "Online_Retail.csv". This csv file is needed in order to run either Shopping_Cart_Annotator.py or run_query.py
 
