@@ -41,6 +41,9 @@ The file run_query.py takes a user input for a StockCode, and will run a query i
 The output of run_query.py should look approximately like this. (StockCode 22297 was used for this example)
 
 ```
-{'took': 427, 'timed_out': False, '_shards': {'total': 5, 'successful': 5, 'skipped': 0, 'failed': 0}, 'hits': {'total': 50, 'max_score': 0.0, 'hits': []}, 'aggregations': {'bestMatch': {'doc_count_error_upper_bound': 10, 'sum_other_doc_count': 1724, 'buckets': []}, 'correlated_words': {'doc_count': 50, 'bg_count': 2941, 'buckets': []}}}
+{'took': 427, 'timed_out': False, '_shards': {'total': 5, 'successful': 5, 'skipped': 0, 'failed': 0}, 'hits': {
+'total': 50, 'max_score': 0.0, 'hits': []}, 'aggregations': {'bestMatch': {'doc_count_error_upper_bound': 10,
+'sum_other_doc_count': 1724, 'buckets': []}, 'correlated_words': {'doc_count': 50, 'bg_count': 2941, 'buckets':
+[]}}}
 
 ```
