@@ -12,7 +12,7 @@ Three files are needed to run depending on the need:
   
 Not all of the above file will be needed to run the full recommender system depening on what already exists on the users system
 
-###Online Retail.xlsx
+### Online Retail.xlsx
 
 This excel file contains the data that we are going to be loading into Kibana.  Before this happens however, it will need to be converted into a csv file.  This can either be done with Convert_xlsx_to_csv.py or by manually saving the file as "Online_Retail.csv".
 
